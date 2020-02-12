@@ -10,7 +10,13 @@ function App() {
       const newDate = await res.text();
       setDate(newDate);
     }
+
+    async function getReviews() {
+      const res = await fetch('/.api/reviews')
+      console.log(res)
+    }
     getDate();
+    getReviews();
   }, []);
   return (
     <main>
