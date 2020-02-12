@@ -14,7 +14,7 @@ function App() {
 
     async function getReviews() {
       const res = await axios.get('/api/reviews')
-      console.log(res.text())
+      console.log(res)
     }
     getDate();
     getReviews();
