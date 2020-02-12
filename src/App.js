@@ -12,7 +12,7 @@ function App() {
     }
 
     async function getReviews() {
-      const res = await fetch('/.api/reviews')
+      const res = await fetch('/api/reviews')
       console.log(res)
     }
     getDate();
