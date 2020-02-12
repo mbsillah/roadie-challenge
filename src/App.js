@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+import axios from 'axios'
 import './App.css';
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
     }
 
     async function getReviews() {
-      const res = await fetch('/api/reviews')
-      console.log(res)
+      const res = await axios.get('/api/reviews')
+      console.log(res.text())
     }
     getDate();
     getReviews();
