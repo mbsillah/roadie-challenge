@@ -52,7 +52,7 @@ function App() {
   useEffect(() => {
     async function getReviews() {
       const res = await axios.get("/api/reviews");
-      console.log(res.data);
+      // console.log(res.data);
       setReviews(res.data);
     }
     getReviews();
