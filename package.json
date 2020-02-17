@@ -8,7 +8,9 @@
     "moment": "^2.24.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
+    "react-icons": "^3.9.0",
     "react-modal": "^3.11.1",
+    "react-rating": "^2.0.4",
     "react-scripts": "2.1.1",
     "yup": "^0.28.1"
   },

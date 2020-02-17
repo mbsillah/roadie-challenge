@@ -1,3 +1,122 @@
+.main {
+  /* margin: 0 4rem 4rem; */
+  margin: 4rem;
+}
+
 .error {
-  border-color: red;  
+  border-color: red;
+}
+
+.itemPic {
+  max-width: 270px;
+}
+
+.itemContainer {
+  display: flex;
+}
+
+.button {
+  height: 3rem;
+  background-color: white;
+  width: 10rem;
+  font-size: 16px;
+  font-weight: 700;
+  color: #53b3b3;
+  border-radius: 5px;
+  border-color: #53b3b3;
+  text-transform: uppercase;
+}
+
+#actionButton {
+  background-color: #53b3b3;
+  color: white;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0rem 0rem 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reviewsContainer {
+  flex: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.review {
+  border: solid thin lightgray;
+  padding: 1rem;
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.meter {
+  width: 100%;
+  max-width: 12rem;
+  height: 2rem;
+  background-color: #f3f3f3;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.meterFilling {
+  height: 100%;
+  background-color: goldenrod;
+}
+
+.stars {
+  color: goldenrod;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #333;
+}
+
+.close {
+  color: red;
+  background: none;
+  border: none;
+  font-size: 32px;
+  padding: 0px;
+}
+
+.field {
+  width: 100%;
+  height: 2.5rem;
+  font-size: 24px;
+}
+
+.form {
+  height: 554px;
+  width: 856px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.paragraphBox {
+  width: 100%;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 32px;
+  text-transform: uppercase; 
+  font-weight: 600;
 }
