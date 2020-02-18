@@ -1,7 +1,5 @@
 import React from "react";
 
-//style={{ width: `${}%` }}
-
 const Filter = props => {
   return (
     <div>
@@ -10,7 +8,6 @@ const Filter = props => {
           <tr>
             <td style={{ width: "55px" }}>
               <a
-                
                 href="#"
                 className="filter stars"
                 onClick={e => props.filterReviews(e, "5")}
