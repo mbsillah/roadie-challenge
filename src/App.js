@@ -118,16 +118,16 @@ function App() {
     }
   };
 
-  // useEffect(() => {
-  //   async function getReviews() {
-  //     const res = await axios.get("/api/reviews");
-  //     setReviews({
-  //       ...reviews,
-  //       originalReviews: res.data
-  //     });
-  //   }
-  //   getReviews();
-  // }, []);
+  useEffect(() => {
+    async function getReviews() {
+      const res = await axios.get("/api/reviews");
+      setReviews({
+        ...reviews,
+        originalReviews: res.data
+      });
+    }
+    getReviews();
+  }, []);
 
   useEffect(() => {
     calculateReviewAverages();
